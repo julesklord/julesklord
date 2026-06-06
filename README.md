@@ -1,52 +1,51 @@
-<div align="center">
+<img src="https://raw.githubusercontent.com/julesklord/julesklord/main/header.svg" width="100%" alt="Jules Martins"/>
 
-<img src="https://raw.githubusercontent.com/julesklord/julesklord/main/header.svg" width="100%" alt="Jules Martins — brutalist header"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2800&pause=1000&color=E8404A&center=true&vCenter=true&multiline=false&width=650&lines=17+years+of+sessions%2C+stages+%26+mixing+boards.;Guitarist.+Bluesman+by+philosophy.;I+write+software+because+the+tools+didn't+exist.;KISS-first.+Terminal-native.+Ship+when+it+works.;Rust+%7C+Python+%7C+TypeScript+%7C+PowerShell" alt="Typing SVG" />
-
-<br/><br/>
+<br/>
 
 [![pitahaya.dev](https://img.shields.io/badge/⚡_pitahaya.dev-E8404A?style=for-the-badge&logoColor=white)](https://github.com/pitahayaDevSoft)
-[![Location](https://img.shields.io/badge/🌮_La_Paz_BCS_México-0d1117?style=for-the-badge)](https://github.com/julesklord)
-[![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/user/julesklord/)
-[![PSGallery](https://img.shields.io/badge/PSGallery-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](#)
-[![Kofi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/julesklord)
-
-</div>
+[![prismSuite](https://img.shields.io/badge/🔺_prismSuite-1a1a2e?style=for-the-badge&logoColor=white)](https://github.com/prismSuite)
+[![crates.io](https://img.shields.io/badge/crates.io-julesklord-E8404A?style=for-the-badge&logo=rust&logoColor=white)](https://crates.io/users/julesklord)
+[![PyPI](https://img.shields.io/badge/PyPI-mentask-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/mentask/)
+[![PSGallery](https://img.shields.io/badge/PSGallery-pacwin-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](#)
+[![Location](https://img.shields.io/badge/La_Paz_·_BCS_·_México-0d1117?style=for-the-badge)](#)
 
 ---
 
-## ⚡ About
+## About
 
 ```rust
 struct Jules {
     role:     ["Music Producer", "Audio Engineer", "Guitarist", "Builder"],
-    location: "La Paz, BCS, México 🌊",
-    org:      "pitahaya.dev — terminal-first open source tooling",
-    daw:      "REAPER (and nothing else)",
-    os:       "Arch WSL2 + Windows — the cursed dual existence",
-    years:    17, // of sessions, stages, mixing boards
-    motto:    "I write software because the tools I needed didn't exist.",
+    location: "La Paz, BCS, México",
+    orgs:     ["pitahaya.dev", "prismSuite"],
+    daw:      "REAPER — and nothing else",
+    os:       "Arch WSL2 + Windows (the cursed dual existence)",
+    years:    17, // sessions, stages, mixing boards
+    motto:    "if you need it, build it",
 }
 
 impl Jules {
-    fn currently_building(&self) -> Vec<&str> {
+    fn philosophy(&self) -> &str {
+        "Keep it simple, stupid"
+    }
+
+    fn published(&self) -> Vec<(&str, &str)> {
         vec![
-            "gemdesktop   — Electron + Vite GUI for Gemini CLI",
-            "ducer-cli    — music production layer over REAPER",
-            "TropicalUI   — cross-platform design system (web/desktop/TUI)",
-            "mentask.py   — CLI-first autonomous agent, no vendor lock-in",
+            ("crates.io", "mangofetch-cli · poshbuddy"),
+            ("PyPI",      "mentask"),
+            ("PSGallery", "pacwin"),
         ]
     }
-    fn music(&self) -> Vec<&str> {
+
+    fn currently_building(&self) -> Vec<&str> {
         vec![
-            "Nopolution        — guitarist",
-            "Afrolatin         — producer",
-            "Fearless Experience — debut album in preproduction",
+            "prismSplit    — stem separation GUI, egui + UVR engine, Rust/Python IPC",
+            "prismConsole  — AI-powered audio production console",
+            "prismControl  — unified REAPER control layer (Tauri chat proxy)",
+            "mangofetch    — TUI/CLI/GUI downloader SDK, 1000+ platforms via yt-dlp",
+            "mentask.py    — autonomous CLI agent, Dynamic Engineering Levels (DEL)",
+            "monolithUI    — industrial/semi-brutalist design system",
+            "gigbuddy      — real-time stage dashboard, setlists + chords + Spotify sync",
         ]
     }
 }
@@ -54,160 +53,114 @@ impl Jules {
 
 ---
 
-## 🛠 Tech Stack
-
-<div align="center">
+## Stack
 
 **Languages**
 
-[![My Skills](https://skillicons.dev/icons?i=rust,python,ts,js,powershell,bash,go&perline=7)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=rust,python,ts,js,powershell,bash,go&perline=14)](https://skillicons.dev)
 
-**Frameworks & Runtimes**
+**Runtimes & Frameworks**
 
-[![My Skills](https://skillicons.dev/icons?i=nodejs,react,electron,tauri,vite&perline=7)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=nodejs,react,electron,tauri,vite&perline=14)](https://skillicons.dev)
 
-**Tools & Platforms**
+**Tools**
 
-[![My Skills](https://skillicons.dev/icons?i=linux,git,github,neovim,vscode,docker,wasm&perline=7)](https://skillicons.dev)
-
-</div>
+[![Skills](https://skillicons.dev/icons?i=linux,git,neovim,vscode,docker,firebase&perline=14)](https://skillicons.dev)
 
 ---
 
-## 🚀 Projects
+## 🔺 prismSuite — Audio Production Tooling
 
-<div align="center">
+> Native. GPU-rendered. No Electron. MonolithUI design language — Industrial Audio Skeuomorphism.
 
-### 🦀 Rust
-
-| | Project | What it does |
+| Repo | Stack | What it does |
 |---|---|---|
-| 🥭 | **[mangofetch](https://github.com/julesklord/mangofetch)** | TUI media downloader — 11 tropical themes, yt-dlp backend, mouse support |
-| 🌴 | **[tropical-projectmanager](https://github.com/pitahayaDevSoft/tropical-projectmanager)** | Navigate & manage local projects from the terminal. First TropicalUI app |
-| 💅 | **[poshbuddy](https://github.com/pitahayaDevSoft/poshbuddy)** | TUI manager for Oh My Posh — browse, preview & switch themes interactively |
-
-### 🐍 Python
-
-| | Project | What it does |
-|---|---|---|
-| 🧠 | **[mentask.py](https://github.com/pitahayaDevSoft/mentask.py)** | CLI-first autonomous agent. Multi-provider via models.dev. No SDK overhead |
-| 🎸 | **[Chorderizer](https://github.com/pitahayaDevSoft/chorderizer)** | Chord generator & MIDI exporter. Scale-aware, guitar tabs included → `PyPI` |
-
-### ⚡ TypeScript / Electron
-
-| | Project | What it does |
-|---|---|---|
-| 💎 | **[gemdesktop](https://github.com/julesklord/gemdesktop)** | Electron + Vite GUI for Gemini CLI. Jump Hook arch, REAPER bridge |
-| 🎛️ | **[ducer-cli](https://github.com/julesklord/ducer-cli)** | Gemini CLI hard fork with a music production layer. IPC bridge to REAPER |
-
-### 🖥️ PowerShell
-
-| | Project | What it does |
-|---|---|---|
-| 📦 | **[pacwin](https://github.com/pitahayaDevSoft/pacwin)** | Pacman-style unified CLI for winget + Chocolatey + Scoop → `PSGallery` |
-
-</div>
+| **[prismSplit](https://github.com/prismSuite/prismSplit)** | Rust · egui · Python · ONNX/PyTorch | Stem separation GUI — vocals, drums, bass, other. Self-repairing Python inference engine. CUDA + Apple Silicon MPS. 5–8MB native binary |
+| **[prismConsole](https://github.com/prismSuite/prismConsole)** | Rust · egui | AI-powered audio production console |
+| **[prismControl](https://github.com/prismSuite/prismControl)** | Tauri | Unified REAPER control & routing layer |
 
 ---
 
-## 🎨 TropicalUI Design System
+## ⚡ pitahaya.dev
 
-<div align="center">
+![pitahaya.dev](./pitahaya-dev-header.png)
+
+> Developing useful toys.
+
+| Repo | Stack | What it does | Published |
+|---|---|---|---|
+| **[mangofetch](https://github.com/julesklord/mangofetch)** | Rust · ratatui · egui · Tokio | Headless download engine SDK — GUI + TUI + CLI frontends. 1000+ platforms via yt-dlp. BitTorrent via librqbit. Plugin SDK | [![crates.io](https://img.shields.io/crates/v/mangofetch-cli?style=flat-square&color=E8404A&logo=rust&logoColor=white)](https://crates.io/crates/mangofetch-cli) |
+| **[poshbuddy](https://github.com/pitahayaDevSoft/poshbuddy)** | Rust · ratatui · Tokio · Serde | TUI manager for Oh My Posh — browse, preview, switch themes. Multi-shell profile sync. Marker-based injection. Segment manipulation | [![crates.io](https://img.shields.io/crates/v/poshbuddy?style=flat-square&color=E8404A&logo=rust&logoColor=white)](https://crates.io/crates/poshbuddy) |
+| **[mentask.py](https://github.com/pitahayaDevSoft/mentask.py)** | Python · Rich · Pydantic | Autonomous CLI agent. ReAct loop. Dynamic Engineering Levels. Autonomous Forge Engine — synthesizes its own tools at runtime. MCP support | [![PyPI](https://img.shields.io/pypi/v/mentask?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/mentask/) |
+| **[pacwin](https://github.com/pitahayaDevSoft/pacwin)** | PowerShell | Pacman-style CLI unifying winget + Chocolatey + Scoop on Windows | [![PSGallery](https://img.shields.io/badge/PSGallery-published-5391FE?style=flat-square&logo=powershell&logoColor=white)](#) |
+| **[chorderizer](https://github.com/pitahayaDevSoft/chorderizer)** | Python | Chord generator & MIDI exporter. Scale-aware. Guitar tabs included | [![PyPI](https://img.shields.io/badge/PyPI-published-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/chorderizer/) |
+| **[tropical-projectmanager](https://github.com/pitahayaDevSoft/tropical-projectmanager)** | Rust · ratatui | Navigate & manage local projects from the terminal. First TropicalUI app | `active` |
+| **[gentoo-tuibook](https://github.com/pitahayaDevSoft/gentoo-tuibook)** | Go | Gentoo handbook in TUI form | `wip` |
+
+---
+
+## 👤 julesklord — Personal
+
+| Repo | Stack | What it does |
+|---|---|---|
+| **[gigbuddy](https://github.com/julesklord/gigbuddy)** | React · Firebase | Real-time stage dashboard. Setlist + lyrics + chord sync across devices. Spotify & YouTube Music control. Touch-optimized for live use |
+| **[SetListBuilder](https://github.com/julesklord/SetListBuilder)** | — | Setlist builder tool for live performers |
+| **[SynapseMD](https://github.com/julesklord/SynapseMD)** | — | Personal PKM / markdown tooling |
+| **[marked](https://github.com/julesklord/marked)** | — | Markdown reader for Android (personal use) |
+| **[monolithUI](https://github.com/julesklord/monolithUI)** | — | Industrial/semi-brutalist design guidelines |
+| **[jules_dev_standard](https://github.com/julesklord/jules_dev_standard)** | — | Personal dev standards & conventions. Grab it if it helps |
+| **[CC-manifesto](https://github.com/julesklord/CC-manifesto)** | — | Conscious Code manifesto |
+| **[promptbase](https://github.com/julesklord/promptbase)** | — | Personal prompt stash |
+| **[ducer-community-scripts](https://github.com/julesklord/ducer-community-scripts)** | — | Community scripts for ducer-cli REAPER agent |
+| **[dotfiles](https://github.com/julesklord/dotfiles)** | Shell | Dots, configs, and herbs — since 2017 |
+
+---
+
+## Fearlessly Records Studio
 
 ```
-╔══════════════════════════════════════════════════════════════════════════╗
-║                  TropicalUI · v0.1.0-pre-alpha                          ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║  Multi-surface design system — Web · Desktop · TUI/CLI                  ║
-║  Dark by default · Physics motion · Five brand presets                  ║
-║  Built on React 19 + TypeScript — no Tailwind · no Bootstrap            ║
-╠═══════════════╦══════════════╦══════════════╦═════════════╦═════════════╣
-║ 🌊 tropic     ║ 🥭 mango     ║ 🌌 balandra  ║ 🏖 playa   ║ 🔴 pitahaya ║
-╠══════════════════════════════════════════════════════════════════════════╣
-║  Surface ramp: #0a0c10 ─────────────────────────────────► #323845       ║
-║  Spring curve: cubic-bezier(0.34, 1.56, 0.64, 1) — never ease-linear   ║
-╚══════════════════════════════════════════════════════════════════════════╝
-```
+HARDWARE ────────────────────────────────────────────────────────────
+CPU       Xeon E5-2630v4  ·  10c/20t  ·  40GB DDR3  ·  GTX 1060 6GB
+INTERFACE Behringer UMC404HD  +  PreSonus AudioBox USB 96
+CONSOLE   xAir XR18 - Behringer
 
-</div>
+SOFTWARE ────────────────────────────────────────────────────────────
+DAW       REAPER / PRO TOOLS
+IDE       ZED + DEVIN DESK.
+
+GENERALS ────────────────────────────────────────────────────────────
+Instruments               guitar, vox, bass, lead synth
+🎸  Nopolution           lead guitarist
+🎸  Fearless Experience  vocal+lead guitarist
+🎹  Afrolatin            producer
+
+```
 
 ---
 
-## 🎵 Studio
+## Stats
 
-<div align="center">
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=julesklord&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=E8404A&icon_color=E8404A&text_color=c9d1d9&count_private=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=julesklord&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=E8404A&text_color=c9d1d9&hide=jupyter%20notebook)](https://github.com/anuraghazra/github-readme-stats)
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  HARDWARE                                                    │
-│  ─────────────────────────────────────────────────────────  │
-│  CPU     Xeon E5-2630v4 · 10c/20t · 40GB RAM               │
-│  GPU     GTX 1060 6GB                                        │
-│  INT     Behringer UMC404HD + PreSonus AudioBox USB 96       │
-│  BOARD   Mackie ProFX16 V1                                   │
-│                                                              │
-│  SOFTWARE                                                    │
-│  ─────────────────────────────────────────────────────────  │
-│  DAW     REAPER ████████████████████████ (100%)             │
-│  FX      Waves Ultimate · Analog Obsession · MAAG EQ2/4+    │
-│                                                              │
-│  BANDS                                                       │
-│  ─────────────────────────────────────────────────────────  │
-│  🎸  Nopolution          guitarist                           │
-│  🎹  Afrolatin           producer                            │
-│  🎙  Fearless Experience  debut album in preproduction        │
-│       7 songs · Blues / Psych / Folk / Prog Rock             │
-│       Guitar · Handpan · Bass · Keys · Violin                │
-└─────────────────────────────────────────────────────────────┘
-```
+[![Streak](https://github-readme-streak-stats.herokuapp.com?user=julesklord&theme=github-dark-blue&hide_border=true&ring=E8404A&fire=E8404A&sideNums=E8404A&currStreakLabel=E8404A)](https://github.com/julesklord)
 
-</div>
+[![Activity](https://github-readme-activity-graph.vercel.app/graph?username=julesklord&bg_color=0d1117&color=E8404A&line=E8404A&point=ffffff&area=true&area_color=E8404A&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+[![Trophies](https://github-profile-trophy.vercel.app/?username=julesklord&theme=radical&no-frame=true&column=7&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 
-## 📊 Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=julesklord&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=E8404A&icon_color=E8404A&text_color=c9d1d9&count_private=true&include_all_commits=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=julesklord&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=E8404A&text_color=c9d1d9&hide=jupyter%20notebook"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=julesklord&theme=github-dark-blue&hide_border=true&ring=E8404A&fire=E8404A&sideNums=E8404A&currStreakLabel=E8404A" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=julesklord&bg_color=0d1117&color=E8404A&line=E8404A&point=ffffff&area=true&area_color=E8404A&hide_border=true" width="100%"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=julesklord&theme=radical&no-frame=true&column=7&margin-w=4"/>
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
+## Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/julesklord/julesklord/output/github-contribution-grid-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/julesklord/julesklord/output/github-contribution-grid-snake.svg"/>
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/julesklord/julesklord/output/github-contribution-grid-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/julesklord/julesklord/output/github-contribution-grid-snake.svg"/>
 </picture>
-
-</div>
 
 ---
 
-<div align="center">
-
 <img src="https://raw.githubusercontent.com/julesklord/julesklord/main/footer.svg" width="100%" alt="footer"/>
 
-![Visitor Badge](https://komarev.com/ghpvc/?username=julesklord&color=E8404A&style=flat-square&label=profile+views)
-
-**[pitahaya.dev](https://github.com/pitahayaDevSoft)** · La Paz, BCS, México
-
-</div>
+![views](https://komarev.com/ghpvc/?username=julesklord&color=E8404A&style=flat-square&label=profile+views)
