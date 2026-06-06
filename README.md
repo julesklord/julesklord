@@ -71,6 +71,8 @@ impl Jules {
 
 ## 🔺 prismSuite — Audio Production Tooling
 
+<img src="https://raw.githubusercontent.com/prismSuite/.github/main/prismsuite-header.svg" width="100%" alt="Jules Martins"/>
+
 > Native. GPU-rendered. No Electron. MonolithUI design language — Industrial Audio Skeuomorphism.
 
 | Repo | Stack | What it does |
@@ -83,7 +85,6 @@ impl Jules {
 
 ## ⚡ pitahaya.dev
 
-<img src="https://raw.githubusercontent.com/julesklord/julesklord/main/pitahaya-dev-header.png" width="100%" alt="Jules Martins"/>
 
 > Developing useful toys.
 
