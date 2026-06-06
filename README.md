@@ -85,6 +85,7 @@ impl Jules {
 
 ## ⚡ pitahaya.dev
 
+<img src="https://github.com/pitahayaDevSoft/.github/raw/main/profile/pitahaya-dev-header.png" width="100%" alt="Jules Martins"/>
 
 > Developing useful toys.
 
