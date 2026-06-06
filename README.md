@@ -83,7 +83,7 @@ impl Jules {
 
 ## ⚡ pitahaya.dev
 
-![pitahaya.dev](./pitahaya-dev-header.png)
+<img src="https://raw.githubusercontent.com/julesklord/julesklord/main/pitahaya-dev-header.png" width="100%" alt="Jules Martins"/>
 
 > Developing useful toys.
 
