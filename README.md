@@ -5,7 +5,7 @@
 [![pitahaya.dev](https://img.shields.io/badge/⚡_pitahaya.dev-E8404A?style=for-the-badge&logoColor=white)](https://github.com/pitahayaDevSoft)
 [![prismSuite](https://img.shields.io/badge/🔺_prismSuite-1a1a2e?style=for-the-badge&logoColor=white)](https://github.com/prismSuite)
 [![crates.io](https://img.shields.io/badge/crates.io-julesklord-E8404A?style=for-the-badge&logo=rust&logoColor=white)](https://crates.io/users/julesklord)
-[![PyPI](https://img.shields.io/badge/PyPI-mentask-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/mentask/)
+[![PyPI](https://img.shields.io/badge/PyPI-julesklord-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/user/julesklord/)
 [![PSGallery](https://img.shields.io/badge/PSGallery-pacwin-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](#)
 [![Location](https://img.shields.io/badge/La_Paz_·_BCS_·_México-0d1117?style=for-the-badge)](#)
 
