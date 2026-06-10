@@ -19,8 +19,8 @@ struct Jules {
     location: "La Paz, BCS, México",
     orgs:     ["pitahaya.dev", "prismSuite"],
     daw:      "REAPER — and nothing else",
-    os:       "Arch WSL2 + Windows (the cursed dual existence)",
-    years:    17, // sessions, stages, mixing boards
+    os:       "Archlinux(dev) + Windows(av production) (the cursed dual existence)",
+    experience:    17(years),
     motto:    "if you need it, build it",
 }
 
