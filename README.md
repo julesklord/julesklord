@@ -39,12 +39,14 @@ impl Jules {
 
     fn currently_building(&self) -> Vec<&str> {
         vec![
+            "oxidian       — Rust/GPUI fork of Zed → native PKM app (Silo + Matrix)",
             "prismSplit    — stem separation GUI, egui + UVR engine, Rust/Python IPC",
             "prismConsole  — AI-powered audio production console",
             "prismControl  — unified REAPER control layer (Tauri chat proxy)",
             "mangofetch    — TUI/CLI/GUI downloader SDK, 1000+ platforms via yt-dlp",
             "mentask.py    — autonomous CLI agent, Dynamic Engineering Levels (DEL)",
-            "monolithUI    — industrial/semi-brutalist design system",
+            "quotachecker  — TUI dashboard for AI coding-assistant quota tracking",
+            "tinyfetch     — neofetch-inspired system info CLI (Go/C++/sh ports)",
             "gigbuddy      — real-time stage dashboard, setlists + chords + Spotify sync",
         ]
     }
@@ -57,7 +59,7 @@ impl Jules {
 
 **Languages**
 
-[![Skills](https://skillicons.dev/icons?i=rust,python,ts,js,powershell,bash,go&perline=14)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=rust,python,ts,js,go,cpp,kotlin,powershell,bash&perline=14)](https://skillicons.dev)
 
 **Runtimes & Frameworks**
 
@@ -105,16 +107,20 @@ impl Jules {
 
 | Repo | Stack | What it does |
 |---|---|---|
-| **[gigbuddy](https://github.com/julesklord/gigbuddy)** | React · Firebase | Real-time stage dashboard. Setlist + lyrics + chord sync across devices. Spotify & YouTube Music control. Touch-optimized for live use |
-| **[SetListBuilder](https://github.com/julesklord/SetListBuilder)** | — | Setlist builder tool for live performers |
-| **[SynapseMD](https://github.com/julesklord/SynapseMD)** | — | Personal PKM / markdown tooling |
-| **[marked](https://github.com/julesklord/marked)** | — | Markdown reader for Android (personal use) |
+| **[gigbuddy](https://github.com/julesklord/gigbuddy)** | TypeScript · React · Firebase | Real-time stage dashboard. Setlist + lyrics + chord sync across devices. Spotify & YouTube Music control. Touch-optimized for live use |
+| **[SetListBuilder](https://github.com/julesklord/SetListBuilder)** | JavaScript | Setlist builder tool for live performers — energy/effort balancing algorithm |
+| **[quotachecker](https://github.com/julesklord/quotachecker)** | Rust · ratatui | TUI dashboard tracking usage limits & token consumption across local AI coding assistants (Codex, OpenCode, Agy, Zed). Tier auto-resolution + proportional model quotas |
+| **[codelyzer](https://github.com/julesklord/codelyzer)** | JavaScript · Vite | Interactive code visualizer. See how files connect, find what breaks if you change something. Runs entirely in your browser |
+| **[tinyfetch](https://github.com/julesklord/tinyfetch)** | Go · C++ · Shell | neofetch-inspired system info CLI. Plugin SDK, multi-port (Go / C++ / POSIX sh) |
+| **[mangofetch-gui](https://github.com/julesklord/mangofetch-gui)** | Rust | Native GUI frontend for mangofetch — WIP |
+| **[SynapseMD](https://github.com/julesklord/SynapseMD)** | HTML | Personal PKM / markdown tooling |
+| **[marked](https://github.com/julesklord/marked)** | Kotlin | Markdown reader for Android (personal use) |
 | **[monolithUI](https://github.com/julesklord/monolithUI)** | — | Industrial/semi-brutalist design guidelines |
-| **[jules_dev_standard](https://github.com/julesklord/jules_dev_standard)** | — | Personal dev standards & conventions. Grab it if it helps |
-| **[CC-manifesto](https://github.com/julesklord/CC-manifesto)** | — | Conscious Code manifesto |
-| **[promptbase](https://github.com/julesklord/promptbase)** | — | Personal prompt stash |
+| **[jules_dev_standard](https://github.com/julesklord/jules_dev_standard)** | HTML | Personal dev standards & conventions. Grab it if it helps |
+| **[CC-manifesto](https://github.com/julesklord/CC-manifesto)** | HTML | Conscious Code manifesto — 8-principle framework |
+| **[promptbase](https://github.com/julesklord/promptbase)** | JavaScript | Personal prompt stash |
 | **[ducer-community-scripts](https://github.com/julesklord/ducer-community-scripts)** | — | Community scripts for ducer-cli REAPER agent |
-| **[dotfiles](https://github.com/julesklord/dotfiles)** | Shell | Dots, configs, and herbs — since 2017 |
+| **[dotfiles](https://github.com/julesklord/dotfiles)** | Lua · Shell | Dots, configs, and herbs — since 2017 |
 
 ---
 
