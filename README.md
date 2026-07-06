@@ -93,7 +93,6 @@ impl Jules {
 
 | Repo | Stack | What it does | Published |
 |---|---|---|---|
-| **[mangofetch](https://github.com/julesklord/mangofetch)** | Rust · ratatui · egui · Tokio | Headless download engine SDK — GUI + TUI + CLI frontends. 1000+ platforms via yt-dlp. BitTorrent via librqbit. Plugin SDK | [![crates.io](https://img.shields.io/crates/v/mangofetch-cli?style=flat-square&color=E8404A&logo=rust&logoColor=white)](https://crates.io/crates/mangofetch-cli) |
 | **[poshbuddy](https://github.com/pitahayaDevSoft/poshbuddy)** | Rust · ratatui · Tokio · Serde | TUI manager for Oh My Posh — browse, preview, switch themes. Multi-shell profile sync. Marker-based injection. Segment manipulation | [![crates.io](https://img.shields.io/crates/v/poshbuddy?style=flat-square&color=E8404A&logo=rust&logoColor=white)](https://crates.io/crates/poshbuddy) |
 | **[mentask.py](https://github.com/pitahayaDevSoft/mentask.py)** | Python · Rich · Pydantic | Autonomous CLI agent. ReAct loop. Dynamic Engineering Levels. Autonomous Forge Engine — synthesizes its own tools at runtime. MCP support | [![PyPI](https://img.shields.io/pypi/v/mentask?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/mentask/) |
 | **[pacwin](https://github.com/pitahayaDevSoft/pacwin)** | PowerShell | Pacman-style CLI unifying winget + Chocolatey + Scoop on Windows | [![PSGallery](https://img.shields.io/badge/PSGallery-published-5391FE?style=flat-square&logo=powershell&logoColor=white)](#) |
@@ -107,6 +106,7 @@ impl Jules {
 
 | Repo | Stack | What it does |
 |---|---|---|
+| **[mangofetch](https://github.com/julesklord/mangofetch)** | Rust · ratatui · egui · Tokio | Headless download engine SDK — GUI + TUI + CLI frontends. 1000+ platforms via yt-dlp. BitTorrent via librqbit. Plugin SDK | [![crates.io](https://img.shields.io/crates/v/mangofetch-cli?style=flat-square&color=E8404A&logo=rust&logoColor=white)](https://crates.io/crates/mangofetch) |
 | **[gigbuddy](https://github.com/julesklord/gigbuddy)** | TypeScript · React · Firebase | Real-time stage dashboard. Setlist + lyrics + chord sync across devices. Spotify & YouTube Music control. Touch-optimized for live use |
 | **[SetListBuilder](https://github.com/julesklord/SetListBuilder)** | JavaScript | Setlist builder tool for live performers — energy/effort balancing algorithm |
 | **[quotachecker](https://github.com/julesklord/quotachecker)** | Rust · ratatui | TUI dashboard tracking usage limits & token consumption across local AI coding assistants (Codex, OpenCode, Agy, Zed). Tier auto-resolution + proportional model quotas |
@@ -115,11 +115,7 @@ impl Jules {
 | **[mangofetch-gui](https://github.com/julesklord/mangofetch-gui)** | Rust | Native GUI frontend for mangofetch — WIP |
 | **[SynapseMD](https://github.com/julesklord/SynapseMD)** | HTML | Personal PKM / markdown tooling |
 | **[marked](https://github.com/julesklord/marked)** | Kotlin | Markdown reader for Android (personal use) |
-| **[monolithUI](https://github.com/julesklord/monolithUI)** | — | Industrial/semi-brutalist design guidelines |
-| **[jules_dev_standard](https://github.com/julesklord/jules_dev_standard)** | HTML | Personal dev standards & conventions. Grab it if it helps |
-| **[CC-manifesto](https://github.com/julesklord/CC-manifesto)** | HTML | Conscious Code manifesto — 8-principle framework |
 | **[promptbase](https://github.com/julesklord/promptbase)** | JavaScript | Personal prompt stash |
-| **[ducer-community-scripts](https://github.com/julesklord/ducer-community-scripts)** | — | Community scripts for ducer-cli REAPER agent |
 | **[dotfiles](https://github.com/julesklord/dotfiles)** | Lua · Shell | Dots, configs, and herbs — since 2017 |
 
 ---
