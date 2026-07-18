@@ -4,141 +4,58 @@
 
 [![pitahaya.dev](https://img.shields.io/badge/⚡_pitahaya.dev-E8404A?style=for-the-badge&logoColor=white)](https://github.com/pitahayaDevSoft)
 [![prismSuite](https://img.shields.io/badge/🔺_prismSuite-1a1a2e?style=for-the-badge&logoColor=white)](https://github.com/prismSuite)
-[![crates.io](https://img.shields.io/badge/crates.io-julesklord-E8404A?style=for-the-badge&logo=rust&logoColor=white)](https://crates.io/users/julesklord)
-[![PyPI](https://img.shields.io/badge/PyPI-julesklord-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/user/julesklord/)
-[![PSGallery](https://img.shields.io/badge/PSGallery-pacwin-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](#)
-[![Location](https://img.shields.io/badge/La_Paz_·_BCS_·_México-0d1117?style=for-the-badge)](#)
+[![crates.io](https://img.shields.io/badge/crates.io-E8404A?style=for-the-badge&logo=rust&logoColor=white)](https://crates.io/users/julesklord)
+[![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/user/julesklord/)
+[![Location](https://img.shields.io/badge/La_Paz_·_México-0d1117?style=for-the-badge)](#)
 
 ---
 
-## About
+## Who I Am
 
-```rust
-struct Jules {
-    role:     ["Music Producer", "Audio Engineer", "Guitarist", "Builder"],
-    location: "La Paz, BCS, México",
-    orgs:     ["pitahaya.dev", "prismSuite"],
-    daw:      "REAPER — and nothing else",
-    os:       "Archlinux(dev) + Windows(av production) (the cursed dual existence)",
-    experience:    17(years),
-    motto:    "if you need it, build it",
-}
+I'm a musician/producer, engineer, and attempt at a developer. This is my personal tooling archive. Everything built here serves a purpose—almost always personal. If something is useful to you, take it. If you want to contribute, go ahead.
 
-impl Jules {
-    fn philosophy(&self) -> &str {
-        "Keep it simple, stupid"
-    }
+I work in two worlds: **developer tools** (CLI, automation, systems stuff) and **audio production**. Both demand the same thing: precision, minimal friction, obsession with details.
 
-    fn published(&self) -> Vec<(&str, &str)> {
-        vec![
-            ("crates.io", "mangofetch-cli · poshbuddy"),
-            ("PyPI",      "mentask"),
-            ("PSGallery", "pacwin"),
-        ]
-    }
+My philosophy is simple: if I need it, I build it. I keep everything as straightforward as possible. I don't add what I won't use.
 
-    fn currently_building(&self) -> Vec<&str> {
-        vec![
-            "oxidian       — Rust/GPUI fork of Zed → native PKM app (Silo + Matrix)",
-            "prismSplit    — stem separation GUI, egui + UVR engine, Rust/Python IPC",
-            "prismConsole  — AI-powered audio production console",
-            "prismControl  — unified REAPER control layer (Tauri chat proxy)",
-            "mangofetch    — TUI/CLI/GUI downloader SDK, 1000+ platforms via yt-dlp",
-            "mentask.py    — autonomous CLI agent, Dynamic Engineering Levels (DEL)",
-            "quotachecker  — TUI dashboard for AI coding-assistant quota tracking",
-            "tinyfetch     — neofetch-inspired system info CLI (Go/C++/sh ports)",
-            "gigbuddy      — real-time stage dashboard, setlists + chords + Spotify sync",
-        ]
-    }
-}
-```
+17 years in. Based in La Paz, México. Everything you see here works because I use it. No marketing.
 
 ---
 
-## Stack
+## What I'm Building
 
-**Languages**
+**[⚡ pitahaya.dev](https://github.com/pitahayaDevSoft)** — tools that people actually use  
+- **[mangofetch](https://github.com/julesklord/mangofetch)** — download from anywhere. 1000+ platforms via yt-dlp. Rust/TUI/GUI/CLI. Works headless.
+- **[poshbuddy](https://github.com/pitahayaDevSoft/poshbuddy)** — manage Oh My Posh themes from terminal. Rust, async, fast. On crates.io.
+- **[pacwin](https://github.com/pitahayaDevSoft/pacwin)** — unify winget, Chocolatey, Scoop under one pacman-like CLI for Windows. On PSGallery.
+- **[mentask.py](https://github.com/pitahayaDevSoft/mentask.py)** — autonomous CLI agent. ReAct loop, dynamic tool synthesis. On PyPI. I use this to delegate real work.
 
-[![Skills](https://skillicons.dev/icons?i=rust,python,ts,js,go,cpp,kotlin,powershell,bash&perline=14)](https://skillicons.dev)
+**[🔺 prismSuite](https://github.com/prismSuite)** — native audio production tools  
+- **[prismSplit](https://github.com/prismSuite/prismSplit)** — stem separation GUI. Runs locally. Rust, egui, ONNX. No cloud, no subscription.
+- **[prismControl](https://github.com/prismSuite/prismControl)** — unified REAPER control layer. Tauri. Route, automate, sync.
 
-**Runtimes & Frameworks**
-
-[![Skills](https://skillicons.dev/icons?i=nodejs,react,electron,tauri,vite&perline=14)](https://skillicons.dev)
-
-**Tools**
-
-[![Skills](https://skillicons.dev/icons?i=linux,git,neovim,vscode,docker,firebase&perline=14)](https://skillicons.dev)
-
----
-
-## 🔺 prismSuite — Audio Production Tooling
-
-<img src="https://raw.githubusercontent.com/prismSuite/.github/main/prismsuite-header.svg" width="100%" alt="Jules Martins"/>
-
-> Native. GPU-rendered. No Electron. MonolithUI design language — Industrial Audio Skeuomorphism.
-
-| Repo | Stack | What it does |
-|---|---|---|
-| **[prismSplit](https://github.com/prismSuite/prismSplit)** | Rust · egui · Python · ONNX/PyTorch | Stem separation GUI — vocals, drums, bass, other. Self-repairing Python inference engine. CUDA + Apple Silicon MPS. 5–8MB native binary |
-| **[prismConsole](https://github.com/prismSuite/prismConsole)** | Rust · egui | AI-powered audio production console |
-| **[prismControl](https://github.com/prismSuite/prismControl)** | Tauri | Unified REAPER control & routing layer |
+Other things I maintain: **[quotachecker](https://github.com/julesklord/quotachecker)** (TUI for tracking AI assistant token usage), **[codelyzer](https://github.com/julesklord/codelyzer)** (interactive codebase mapper, runs in browser), **[tinyfetch](https://github.com/julesklord/tinyfetch)** (system info CLI in Go/C++/sh), **[gentoo-tuibook](https://github.com/pitahayaDevSoft/gentoo-tuibook)** (Gentoo handbook in terminal), **[marked](https://github.com/julesklord/marked)** (lightweight Android markdown reader).
 
 ---
 
-## ⚡ pitahaya.dev
+## Tech Stack
 
-<img src="https://github.com/pitahayaDevSoft/.github/raw/main/profile/pitahaya-dev-header.png" width="100%" alt="Jules Martins"/>
+[![Skills](https://skillicons.dev/icons?i=rust,python,typescript,go,cpp,react,electron,tauri,vite&perline=14)](https://skillicons.dev)
 
-> Developing useful toys.
-
-| Repo | Stack | What it does | Published |
-|---|---|---|---|
-| **[poshbuddy](https://github.com/pitahayaDevSoft/poshbuddy)** | Rust · ratatui · Tokio · Serde | TUI manager for Oh My Posh — browse, preview, switch themes. Multi-shell profile sync. Marker-based injection. Segment manipulation | [![crates.io](https://img.shields.io/crates/v/poshbuddy?style=flat-square&color=E8404A&logo=rust&logoColor=white)](https://crates.io/crates/poshbuddy) |
-| **[mentask.py](https://github.com/pitahayaDevSoft/mentask.py)** | Python · Rich · Pydantic | Autonomous CLI agent. ReAct loop. Dynamic Engineering Levels. Autonomous Forge Engine — synthesizes its own tools at runtime. MCP support | [![PyPI](https://img.shields.io/pypi/v/mentask?style=flat-square&color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/mentask/) |
-| **[pacwin](https://github.com/pitahayaDevSoft/pacwin)** | PowerShell | Pacman-style CLI unifying winget + Chocolatey + Scoop on Windows | [![PSGallery](https://img.shields.io/badge/PSGallery-published-5391FE?style=flat-square&logo=powershell&logoColor=white)](#) |
-| **[chorderizer](https://github.com/pitahayaDevSoft/chorderizer)** | Python | Chord generator & MIDI exporter. Scale-aware. Guitar tabs included | [![PyPI](https://img.shields.io/badge/PyPI-published-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/chorderizer/) |
-| **[tropical-projectmanager](https://github.com/pitahayaDevSoft/tropical-projectmanager)** | Rust · ratatui | Navigate & manage local projects from the terminal. First TropicalUI app | `active` |
-| **[gentoo-tuibook](https://github.com/pitahayaDevSoft/gentoo-tuibook)** | Go | Gentoo handbook in TUI form | `wip` |
+<br/>
 
 ---
 
-## 👤 julesklord — Personal
-
-| Repo | Stack | What it does |
-|---|---|---|
-| **[mangofetch](https://github.com/julesklord/mangofetch)** | Rust · ratatui · egui · Tokio | Headless download engine SDK — GUI + TUI + CLI frontends. 1000+ platforms via yt-dlp. BitTorrent via librqbit. Plugin SDK | [![crates.io](https://img.shields.io/crates/v/mangofetch-cli?style=flat-square&color=E8404A&logo=rust&logoColor=white)](https://crates.io/crates/mangofetch) |
-| **[gigbuddy](https://github.com/julesklord/gigbuddy)** | TypeScript · React · Firebase | Real-time stage dashboard. Setlist + lyrics + chord sync across devices. Spotify & YouTube Music control. Touch-optimized for live use |
-| **[SetListBuilder](https://github.com/julesklord/SetListBuilder)** | JavaScript | Setlist builder tool for live performers — energy/effort balancing algorithm |
-| **[quotachecker](https://github.com/julesklord/quotachecker)** | Rust · ratatui | TUI dashboard tracking usage limits & token consumption across local AI coding assistants (Codex, OpenCode, Agy, Zed). Tier auto-resolution + proportional model quotas |
-| **[codelyzer](https://github.com/julesklord/codelyzer)** | JavaScript · Vite | Interactive code visualizer. See how files connect, find what breaks if you change something. Runs entirely in your browser |
-| **[tinyfetch](https://github.com/julesklord/tinyfetch)** | Go · C++ · Shell | neofetch-inspired system info CLI. Plugin SDK, multi-port (Go / C++ / POSIX sh) |
-| **[mangofetch-gui](https://github.com/julesklord/mangofetch-gui)** | Rust | Native GUI frontend for mangofetch — WIP |
-| **[SynapseMD](https://github.com/julesklord/SynapseMD)** | HTML | Personal PKM / markdown tooling |
-| **[marked](https://github.com/julesklord/marked)** | Kotlin | Markdown reader for Android (personal use) |
-| **[promptbase](https://github.com/julesklord/promptbase)** | JavaScript | Personal prompt stash |
-| **[dotfiles](https://github.com/julesklord/dotfiles)** | Lua · Shell | Dots, configs, and herbs — since 2017 |
-
----
-
-## Fearlessly Records Studio
+## Studio
 
 ```
-HARDWARE ────────────────────────────────────────────────────────────
-CPU       Xeon E5-2630v4  ·  10c/20t  ·  40GB DDR3  ·  GTX 1060 6GB
-INTERFACE Behringer UMC404HD  +  PreSonus AudioBox USB 96
-CONSOLE   xAir XR18 - Behringer
-
-SOFTWARE ────────────────────────────────────────────────────────────
-DAW       REAPER / PRO TOOLS
-IDE       ZED + DEVIN DESK.
-
-GENERALS ────────────────────────────────────────────────────────────
-Instruments               guitar, vox, bass, lead synth
-🎸  Nopolution           lead guitarist
-🎸  Fearless Experience  vocal+lead guitarist
-🎹  Afrolatin            producer
-
+CPU       Xeon E5-2630v4  ·  32GB RAM  ·  GTX 1060 6GB
+DAW       REAPER + MixDown11 + Pro Tools
+INTERFACE SSL2+ - Behringer UMC404HD - PreSonus AudioBox
+CONSOLE   xAir XR18 - MackieProFX16v3
 ```
+
+I produce and record here. Also recording my band, Nopolution and Fearless Experience.
 
 ---
 
@@ -151,11 +68,9 @@ Instruments               guitar, vox, bass, lead synth
 
 [![Activity](https://github-readme-activity-graph.vercel.app/graph?username=julesklord&bg_color=0d1117&color=E8404A&line=E8404A&point=ffffff&area=true&area_color=E8404A&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=julesklord&theme=radical&no-frame=true&column=7&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-
 ---
 
-## Contribution Snake
+## Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/julesklord/julesklord/output/github-contribution-grid-snake-dark.svg"/>
